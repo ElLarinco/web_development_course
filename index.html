@@ -1,0 +1,136 @@
+<!DOCTYPE html> <!--? TIPO DE DOCUMENTO -->
+<!--
+    ? Elementos básicos
+    * html: Raíz del documento
+    * head: Se especifican los metadatos
+    * title: Título
+    * body: Lo visible de la página
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Simple Larin Page</title>
+
+    <!--
+        ? Etiquetas Meta: Se usan para dar información de la página al navegador
+        * charset: Codificación de caracteres
+        * description: Resumen de la página web
+        * title
+        * url
+        * site_name
+        * type
+        * image
+    -->
+
+    <!--
+        ? Atributos: se colocan en una etiqueta para añdair características adicionales
+    -->
+
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: lighter;
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        header {
+            background-color: #FC997C;
+            padding: .25rem 0;
+        }
+        section {
+            background-color: #DADDFC;
+            padding: .25rem 0;
+        }
+        h1, header > p {
+            text-align: center;
+            color: white;
+        }
+        h2 {
+            text-align: center;
+        }
+        div {
+            width: 80%;
+            padding: 0;
+            margin: 0 auto;
+        }
+        div > h3 {
+            font-size: 250%;
+            margin-bottom: 0;
+        }
+        li {
+            margin-bottom: .5rem;
+        }
+        a {
+            color: #FF5151;
+        }
+        a:visited {
+            color: #396EB0;
+        }
+        figure {
+            width: 30%;
+            margin: 0 auto;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Larin Hoshi</h1>
+        <p>Programador por afición y fan de LL</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>1 año estudiando diversos temas de programación como HTML, CSS, JS, Python, PHP, etc...</h2>
+        </section>
+        <div>
+            <div style="margin: 0;">
+                <h3>Estudios</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deleniti explicabo, quidem quibusdam accusantium aliquid nulla quod provident non excepturi quos est corporis ipsum incidunt, impedit consequuntur corrupti veniam reprehenderit.
+                </p>
+            </div>
+            <figure>
+                <img src="./images/larin_boceto_hablando_v7_png.png" alt="image">
+            </figure>
+        </div>
+        <div>
+            <h3>Lenguajes</h3>
+            <ul>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>PHP</li>
+                <li>React</li>
+                <li>Laravel</li>
+                <li>MySQL</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li>
+                    <a href="https://www.google.com/" target="_blank">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/" target="_blank">Discord</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/" target="_blank">Twitter</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
